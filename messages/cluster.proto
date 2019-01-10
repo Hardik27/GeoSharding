@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package messages;
+
+message ClusterMessage{
+	int32 port=1;
+	int32 shard=2;
+}
+
+message ClusterResponse{
+	int32 port=1;
+	int32 shard=2;
+}

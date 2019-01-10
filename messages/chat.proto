@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package messages;
+
+message POWMessage{
+    int32 nonce=1;
+    string pubkey=2;
+    string addr=3;
+    int32 blocknum=4;
+    int32 difficulty=5;
+    string result=6;
+}
+
